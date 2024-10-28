@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #F5F5F5
@@ -160,6 +161,10 @@ footer p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
 }
+.mercurial h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
 .botines{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -191,4 +196,46 @@ footer p{
 .sumate{
     margin: 10px;
     width: 100%;
+}
+.nikeexperience{
+    width: 100%;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.ropahombre {
+    display: flex;
+    margin: 10px;
+    transition: 1s;
+    justify-content: center;
+    gap: 10px;
+}
+.ropahombre :hover{
+    opacity: 0.9;
+}
+.ropa{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-style: italic;
+    text-decoration: underline;   
+}
+.ropamujer {
+    display: flex;
+    margin: 10px;
+    transition: 1s;
+    justify-content: center;
+    gap: 10px;
+}
+.ropamujer :hover{
+    opacity: 0.9;
 }
