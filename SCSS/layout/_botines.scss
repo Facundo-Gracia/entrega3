@@ -1,0 +1,41 @@
+.mercurial{
+    img{
+        width: 20rem;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+    }
+}
+.botines{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+        .botin{
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+                .precio{
+                    margin-top: 10px;
+                    font-size: 18px;
+                    color: #333;
+                }
+                img{
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                    transition: 0.3s
+                }
+                &:hover{
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                }
+        }
+}

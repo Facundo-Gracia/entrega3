@@ -1,0 +1,73 @@
+@media (max-width: 600px) {
+    .anuncio p {
+        font-size: 14px;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+    header ul {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+    header img {
+        width: 4rem;
+    }
+    .carousel{
+        width: 100%;
+        max-width: 100%;
+    }
+    #carouselExampleCaptions {
+        width: 100%;
+    }
+    .carousel-inner{
+        width: 100%;
+    }
+    .botines {
+        grid-template-columns: 1fr;
+    }
+    .imghombre{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .imgmujer {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .ropahombre {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ropamujer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logowsp img {
+        width: 50px;
+    }
+    .mercurial img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .textomujer img {
+        max-width: 80%; 
+        margin: 0 auto; 
+    }
+    .textohombre img {
+        max-width: 80%; 
+        margin: 0 auto; 
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+    footer h3, footer p {
+        margin: 0;
+    }
+}

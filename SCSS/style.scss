@@ -1,0 +1,28 @@
+// Reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Import
+
+@import "./layout/header";
+@import "./base/reset";
+@import "./layout/portada";
+// @import "./layout/botininicio";
+@import "./components/carrusel.scss";
+@import "./components/cards.scss";
+@import "./layout/hombre";
+@import "./extras.scss/wsp";
+@import "./layout/footer";
+@import "./layout/botines";
+@import "./layout/mujer";
+@import "./extras.scss/nikeads";
+@import "./media-queries/media-laptop";
+@import "./media-queries/media-mobile";
+@import "./components/botones";
+
+
+
+
