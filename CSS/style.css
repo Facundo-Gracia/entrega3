@@ -111,7 +111,7 @@ h1 {
 }
 .textohombre .th1hombre {
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   margin: 20px;
 }
 .textohombre .p1hombre {
@@ -152,15 +152,15 @@ footer {
   padding: 20px 0;
   grid-template-columns: repeat(5, 1fr);
   margin-top: 80px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 footer h3 {
   margin-bottom: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 footer p {
   margin: 5px 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   font-size: 0.9rem;
 }
 
@@ -212,12 +212,12 @@ footer p {
 }
 .textomujer .th1mujer {
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   margin: 20px;
 }
 .textomujer .p1mujer {
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   font-size: 20px;
 }
 
@@ -320,16 +320,16 @@ footer p {
     margin: 0;
   }
 }
-section {
+section.boton {
   text-align: center;
   margin-top: 20px;
 }
-section h1 {
+section.boton h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   text-align: center;
 }
-section a {
+section.boton a {
   display: inline-block;
   padding: 10px 20px;
   background-color: black;
@@ -339,7 +339,7 @@ section a {
   font-weight: bold;
   transition: 1s;
 }
-section a:hover {
+section.boton a:hover {
   opacity: 0.5;
 }
 

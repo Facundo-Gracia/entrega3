@@ -1,3 +1,4 @@
+@import "../utilities/variables";
 header{
     display: flex;
     justify-content: space-between;
@@ -12,7 +13,7 @@ header{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 22px;
             &:hover{
-                font-weight: bold;
+                font-weight: $negrita;
             }
             img{
                 max-width: 100px;
