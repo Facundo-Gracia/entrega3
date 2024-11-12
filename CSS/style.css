@@ -137,13 +137,6 @@ h1 {
   opacity: 0.8;
 }
 
-.logowsp img {
-  position: fixed;
-  right: 15px;
-  bottom: 25px;
-  width: 60px;
-}
-
 footer {
   background-color: black;
   gap: 20px;
@@ -247,6 +240,47 @@ footer p {
   width: 100%;
 }
 
+@media (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.1rem;
+  }
+  header img {
+    width: 5rem;
+  }
+  .anuncio {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .ropahombre {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .ropamujer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .card {
+    width: 16rem;
+  }
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 15px;
+  }
+}
 @media (max-width: 600px) {
   .anuncio p {
     font-size: 14px;
@@ -341,6 +375,13 @@ section.boton a {
 }
 section.boton a:hover {
   opacity: 0.5;
+}
+
+.logowsp img {
+  position: fixed;
+  right: 15px;
+  bottom: 25px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
