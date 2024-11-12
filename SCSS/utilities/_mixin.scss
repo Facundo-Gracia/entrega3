@@ -1,0 +1,28 @@
+@mixin button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+@mixin boton-variables($bg-color,$color-texto,$padding,$b-radius,$fuente,$margin,$text){
+    background-color: $bg-color;
+    color: $color-texto;
+    padding: $padding;
+    border-radius: $b-radius;
+    font-family: $fuente;
+    margin: $margin;
+    text-decoration: $text;
+}
+
+.botones{
+    margin: 20px;
+    .BotonHombre{
+        @include button;
+    }
+    .BotonMujer{
+        @include boton-variables(black, white, 10px 15px,15px,Arial, 1.1rem,none)
+    }
+
+}

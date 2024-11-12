@@ -90,7 +90,7 @@ h1 {
 
 .ropahombre {
   display: flex;
-  margin: 10px;
+  margin: 30px;
   transition: 1s;
   justify-content: center;
   gap: 10px;
@@ -98,7 +98,7 @@ h1 {
 
 .ropamujer {
   display: flex;
-  margin: 10px;
+  margin: 30px;
   transition: 1s;
   justify-content: center;
   gap: 10px;
@@ -135,6 +135,10 @@ h1 {
 }
 .imghombre img:hover {
   opacity: 0.8;
+}
+.imghombre .ropa {
+  margin: 10px;
+  color: blue;
 }
 
 footer {
@@ -263,13 +267,14 @@ footer p {
   .ropahombre {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
+    margin: 20px;
   }
   .ropamujer {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
   }
   .card {
@@ -280,10 +285,16 @@ footer p {
     text-align: center;
     gap: 15px;
   }
+  .mercurial h1 {
+    font-size: 1.5rem;
+  }
+  .anuncio p {
+    font-size: 16px;
+  }
 }
 @media (max-width: 600px) {
   .anuncio p {
-    font-size: 14px;
+    font-size: 12px;
   }
   header {
     flex-direction: column;
@@ -296,7 +307,7 @@ footer p {
     align-items: center;
   }
   header img {
-    width: 4rem;
+    width: 3.5rem;
   }
   .carousel {
     width: 100%;
@@ -310,6 +321,7 @@ footer p {
   }
   .botines {
     grid-template-columns: 1fr;
+    padding: 5px;
   }
   .imghombre {
     grid-template-columns: 1fr;
@@ -326,13 +338,17 @@ footer p {
   .ropamujer {
     flex-direction: column;
     gap: 10px;
+    margin: 15px;
   }
   .logowsp img {
     width: 50px;
   }
   .mercurial img {
-    width: 100%;
-    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mercurial h1 {
+    font-size: 1.25rem;
   }
   .textomujer img {
     max-width: 80%;
@@ -372,6 +388,7 @@ section.boton a {
   border-radius: 5px;
   font-weight: bold;
   transition: 1s;
+  margin: 20px 15px;
 }
 section.boton a:hover {
   opacity: 0.5;
@@ -382,6 +399,27 @@ section.boton a:hover {
   right: 15px;
   bottom: 25px;
   width: 60px;
+}
+
+.botones {
+  margin: 20px;
+}
+.botones .BotonHombre {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 10px;
+}
+.botones .BotonMujer {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-family: Arial;
+  margin: 1.1rem;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
